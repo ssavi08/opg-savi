@@ -11,6 +11,7 @@ obj/
 # VS and Rider
 .vscode/
 .idea/
+.vs/
 
 # Config
 appsettings.Development.json

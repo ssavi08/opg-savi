@@ -8,7 +8,7 @@ namespace OPGSavi.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]
-    [Authorize(Roles = "user")]
+    [Authorize]
     public class OrderController : ControllerBase
     {
         private readonly IOrderService _orderService;
@@ -18,6 +18,9 @@ namespace OPGSavi.Controllers
             _orderService = orderService;
         }
 
+        /// <summary>
+        /// Get the user's current (open) order. If none exists, it will be created.
+        /// </summary>
         [HttpGet("current")]
         public async Task<IActionResult> GetCurrentOrder()
         {
@@ -26,6 +29,9 @@ namespace OPGSavi.Controllers
             return Ok(order);
         }
 
+        /// <summary>
+        /// Get all confirmed orders (order history) for the current user.
+        /// </summary>
         [HttpGet("history")]
         public async Task<IActionResult> GetMyOrders()
         {
@@ -33,5 +39,43 @@ namespace OPGSavi.Controllers
             var orders = await _orderService.GetOrdersByUserIdAsync(userId);
             return Ok(orders);
         }
+
+        /// <summary>
+        /// Confirm the user's current order (submit it).
+        /// </summary>
+        [HttpPut("{id}/confirm")]
+        public async Task<IActionResult> ConfirmOrder(int id)
+        {
+            var userId = int.Parse(User.FindFirst(ClaimTypes.NameIdentifier)!.Value);
+
+            var order = await _orderService.GetOrderByIdAsync(id);
+            if (order == null || order.UserId != userId)
+                return Forbid(); // ⛔ User cannot confirm someone else’s order
+
+            var updated = await _orderService.ConfirmOrderAsync(id);
+            return updated > 0 ? Ok() : NotFound();
+        }
+
+
+
+        [Authorize(Roles = "admin")]
+        [HttpGet("admin/all")]
+        public async Task<IActionResult> GetAllOrdersForAdmin()
+        {
+            Console.WriteLine("==== CLAIMS START ====");
+            foreach (var claim in User.Claims)
+            {
+                Console.WriteLine($"Type: {claim.Type}, Value: {claim.Value}");
+            }
+            Console.WriteLine($"IsInRole(\"admin\") = {User.IsInRole("admin")}");
+            Console.WriteLine("==== CLAIMS END ====");
+
+            if (!User.IsInRole("admin"))
+                return Forbid(); // <- you'll still see 403 but with logging
+
+            var orders = await _orderService.GetAllOrdersForAdminAsync();
+            return Ok(orders);
+        }
+
     }
 }

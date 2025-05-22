@@ -48,10 +48,12 @@ namespace OPGSavi.Controllers
             return result > 0 ? Ok() : BadRequest();
         }
 
-        [HttpPut]
+        [HttpPut("{id}")]
         [Authorize(Roles = "admin")]
-        public async Task<IActionResult> UpdateProduct([FromBody] Products product)
+        public async Task<IActionResult> UpdateProduct(int id, [FromBody] Products product)
         {
+            if (id != product.Id) return BadRequest("ID mismatch");
+
             var result = await _service.UpdateProductAsync(product);
             return result > 0 ? Ok() : NotFound();
         }

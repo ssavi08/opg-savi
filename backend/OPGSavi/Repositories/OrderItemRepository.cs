@@ -18,9 +18,10 @@ namespace OPGSavi.Repositories
         {
             var items = new List<OrderItem>();
             var sql = new StringBuilder(@"
-                SELECT id, order_id, product_id, quantity, price
-                FROM order_items
-                WHERE order_id = @orderId;
+                SELECT oi.id, oi.order_id, oi.product_id, p.name AS product_name, oi.quantity, oi.price
+                FROM order_items oi
+                JOIN products p ON oi.product_id = p.id
+                WHERE oi.order_id = @orderId;
             ");
 
             await using var connection = (NpgsqlConnection)_databaseConnection.CreateConnection();
@@ -37,9 +38,11 @@ namespace OPGSavi.Repositories
                     Id = reader.GetInt32(0),
                     OrderId = reader.GetInt32(1),
                     ProductId = reader.GetInt32(2),
-                    Quantity = reader.GetInt32(3),
-                    Price = reader.GetDecimal(4)
+                    ProductName = reader.GetString(3), // ← NEW
+                    Quantity = reader.GetInt32(4),
+                    Price = reader.GetDecimal(5)
                 });
+
             }
 
             return items;
