@@ -3,32 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\models\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\models\\orderitems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\orderitemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\webdev kolegiji projekt\\opg-savi\\backend\\opgsavi\\models\\products.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -90,50 +98,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Products.cs",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\Products.cs",
-              "RelativeDocumentMoniker": "OPGSavi\\Models\\Products.cs",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\Products.cs",
-              "RelativeToolTip": "OPGSavi\\Models\\Products.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:38:53.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "OrderItemController.cs",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderItemController.cs",
-              "RelativeDocumentMoniker": "OPGSavi\\Controllers\\OrderItemController.cs",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderItemController.cs",
-              "RelativeToolTip": "OPGSavi\\Controllers\\OrderItemController.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAIwDEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-22T11:36:33.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "OrderItems.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\OrderItems.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Models\\OrderItems.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\OrderItems.cs",
+              "RelativeToolTip": "OPGSavi\\Models\\OrderItems.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:07:16.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ProductController.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\ProductController.cs",
               "RelativeToolTip": "OPGSavi\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-22T11:36:31.384Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "OPGSavi\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwFEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:27:09.107Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Services\\OrderService.cs",
+              "RelativeToolTip": "OPGSavi\\Services\\OrderService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAA9wCwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T14:29:43.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "RelativeToolTip": "OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAwwCQAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:45:24.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderItemController.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderItemController.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Controllers\\OrderItemController.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderItemController.cs",
+              "RelativeToolTip": "OPGSavi\\Controllers\\OrderItemController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:36:33.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "OPGSavi\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:56:31.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Controllers\\UserController.cs",
@@ -147,45 +207,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "OPGSavi\\Controllers\\OrderController.cs",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "OPGSavi\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:27:09.107Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "OrderService.cs",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Services\\OrderService.cs",
-              "RelativeDocumentMoniker": "OPGSavi\\Services\\OrderService.cs",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Services\\OrderService.cs",
-              "RelativeToolTip": "OPGSavi\\Services\\OrderService.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAA9wCwAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T14:29:43.613Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "OPGSavi\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAHsAAAAAAAAAAAAgwJQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJwAAAAAAAAAAAAuwLsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T14:30:12.827Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 9,
+              "Title": "Products.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\Products.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Models\\Products.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\Products.cs",
+              "RelativeToolTip": "OPGSavi\\Models\\Products.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T11:38:53.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Repositories\\IOrderRepository.cs",
@@ -198,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\Order.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Models\\Order.cs",
@@ -210,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Program.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Program.cs",
@@ -223,20 +270,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderItemRepository.cs",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
-              "RelativeDocumentMoniker": "OPGSavi\\Repositories\\OrderItemRepository.cs",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
-              "RelativeToolTip": "OPGSavi\\Repositories\\OrderItemRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:45:24.615Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Services\\IOrderService.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Services\\IOrderService.cs",
@@ -248,7 +282,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "DatabaseConnection.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Data\\DatabaseConnection.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Data\\DatabaseConnection.cs",
@@ -260,7 +294,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\User.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Models\\User.cs",
@@ -272,7 +306,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AdminOrderView.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Models\\AdminOrderView.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Models\\AdminOrderView.cs",
@@ -284,7 +318,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "IOrderItemRepository.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Repositories\\IOrderItemRepository.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Repositories\\IOrderItemRepository.cs",
@@ -296,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\appsettings.json",
               "RelativeDocumentMoniker": "OPGSavi\\appsettings.json",
@@ -308,7 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "OPGSavi.http",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\OPGSavi.http",
               "RelativeDocumentMoniker": "OPGSavi\\OPGSavi.http",
@@ -320,7 +354,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Utilities\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Utilities\\PasswordHasher.cs",
@@ -332,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "JwtHelper.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\WebDev Kolegiji Projekt\\OPG-Savi\\backend\\OPGSavi\\Utilities\\JwtHelper.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Utilities\\JwtHelper.cs",
