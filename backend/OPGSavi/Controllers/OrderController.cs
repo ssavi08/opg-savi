@@ -18,9 +18,7 @@ namespace OPGSavi.Controllers
             _orderService = orderService;
         }
 
-        /// <summary>
         /// Get the user's current (open) order. If none exists, it will be created.
-        /// </summary>
         [HttpGet("current")]
         public async Task<IActionResult> GetCurrentOrder()
         {
@@ -29,9 +27,7 @@ namespace OPGSavi.Controllers
             return Ok(order);
         }
 
-        /// <summary>
         /// Get all confirmed orders (order history) for the current user.
-        /// </summary>
         [HttpGet("history")]
         public async Task<IActionResult> GetMyOrders()
         {
@@ -40,9 +36,7 @@ namespace OPGSavi.Controllers
             return Ok(orders);
         }
 
-        /// <summary>
         /// Confirm the user's current order (submit it).
-        /// </summary>
         [HttpPut("{id}/confirm")]
         public async Task<IActionResult> ConfirmOrder(int id)
         {
@@ -56,26 +50,25 @@ namespace OPGSavi.Controllers
             return updated > 0 ? Ok() : NotFound();
         }
 
-
-
         [Authorize(Roles = "admin")]
         [HttpGet("admin/all")]
         public async Task<IActionResult> GetAllOrdersForAdmin()
         {
-            Console.WriteLine("==== CLAIMS START ====");
-            foreach (var claim in User.Claims)
+            try
             {
-                Console.WriteLine($"Type: {claim.Type}, Value: {claim.Value}");
+                var orders = await _orderService.GetAllOrdersForAdminAsync();
+                if (orders == null || orders.Count == 0)
+                {
+                    return Ok(new List<AdminOrderView>());
+                }
+                return Ok(orders);
             }
-            Console.WriteLine($"IsInRole(\"admin\") = {User.IsInRole("admin")}");
-            Console.WriteLine("==== CLAIMS END ====");
-
-            if (!User.IsInRole("admin"))
-                return Forbid(); // <- you'll still see 403 but with logging
-
-            var orders = await _orderService.GetAllOrdersForAdminAsync();
-            return Ok(orders);
+            catch (Exception ex)
+            {
+                // Log the exception
+                Console.WriteLine($"Error retrieving orders: {ex.Message}");
+                return StatusCode(500, "An error occurred while retrieving orders.");
+            }
         }
-
     }
 }

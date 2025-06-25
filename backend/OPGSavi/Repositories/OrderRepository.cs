@@ -100,10 +100,10 @@ namespace OPGSavi.Repositories
         public async Task<Order?> GetOrderByIdAsync(int orderId)
         {
             var sql = new StringBuilder(@"
-        SELECT id, user_id, total, created_at, status
-        FROM orders
-        WHERE id = @orderId;
-    ");
+                SELECT id, user_id, total, created_at, status
+                FROM orders
+                WHERE id = @orderId;
+            ");
 
             await using var connection = (NpgsqlConnection)_databaseConnection.CreateConnection();
             await connection.OpenAsync();
@@ -127,7 +127,6 @@ namespace OPGSavi.Repositories
             return null;
         }
 
-
         public async Task<int> ConfirmOrderAsync(int orderId)
         {
             var sql = new StringBuilder(@"
@@ -150,10 +149,11 @@ namespace OPGSavi.Repositories
             return await command.ExecuteNonQueryAsync();
         }
 
-
         public async Task<List<AdminOrderView>> GetAllOrdersWithUsersAsync()
         {
-            var sql = new StringBuilder(@"
+            try
+            {
+                var sql = new StringBuilder(@"
                 SELECT o.id, u.username, u.email, o.total, o.status, o.created_at
                 FROM orders o
                 JOIN users u ON o.user_id = u.id
@@ -182,6 +182,13 @@ namespace OPGSavi.Repositories
             }
 
             return results;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Repository error: {ex.Message}");
+                Console.WriteLine(ex.StackTrace); // Pinpoint the exact line
+                throw;
+            }
         }
     }
 }
