@@ -12,9 +12,9 @@ namespace OPGSavi.Services
             _repository = repository;
         }
 
-        public Task<List<Products>> GetAllProductsAsync()
+        public Task<List<Products>> GetAllProductsAsync(string? search = null, string sortDirection = "asc", int page = 1, int pageSize = 3)
         {
-            return _repository.GetAllProductsAsync();
+            return _repository.GetAllProductsAsync(search, sortDirection, page, pageSize);
         }
 
         public Task<Products?> GetProductByIdAsync(int id)

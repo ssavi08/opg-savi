@@ -17,11 +17,15 @@ namespace OPGSavi.Controllers
         }
 
         [HttpGet]
-        public async Task<IActionResult> GetAllProducts()
+        public async Task<IActionResult> GetAllProducts(
+            [FromQuery] string? search = null,
+            [FromQuery] string sort = "asc",
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 3)
         {
             try
             {
-                var products = await _service.GetAllProductsAsync();
+                var products = await _service.GetAllProductsAsync(search, sort, page, pageSize);
                 return Ok(products);
             }
             catch (Exception ex)

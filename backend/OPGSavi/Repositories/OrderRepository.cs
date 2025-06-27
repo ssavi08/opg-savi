@@ -60,7 +60,7 @@ namespace OPGSavi.Repositories
             await using var command = new NpgsqlCommand(sql.ToString(), connection);
             command.Parameters.AddWithValue("userId", order.UserId);
             command.Parameters.AddWithValue("total", order.Total);
-            command.Parameters.AddWithValue("status", order.Status); // dynamically set
+            command.Parameters.AddWithValue("status", order.Status);
 
             return (int)await command.ExecuteScalarAsync();
         }
@@ -154,34 +154,36 @@ namespace OPGSavi.Repositories
             try
             {
                 var sql = new StringBuilder(@"
-                SELECT o.id, u.username, u.email, o.total, o.status, o.created_at
-                FROM orders o
-                JOIN users u ON o.user_id = u.id
-                ORDER BY o.created_at DESC;
-            ");
+                    SELECT o.id, u.username, u.email, o.total, o.status, o.created_at
+                    FROM orders o
+                    JOIN users u ON o.user_id = u.id
+                    WHERE o.status = 'confirmed'
+                    ORDER BY o.created_at DESC;
+                ");
 
-            var results = new List<AdminOrderView>();
 
-            await using var connection = (NpgsqlConnection)_databaseConnection.CreateConnection();
-            await connection.OpenAsync();
+                var results = new List<AdminOrderView>();
 
-            await using var command = new NpgsqlCommand(sql.ToString(), connection);
-            await using var reader = await command.ExecuteReaderAsync();
+                await using var connection = (NpgsqlConnection)_databaseConnection.CreateConnection();
+                await connection.OpenAsync();
 
-            while (reader.Read())
-            {
-                results.Add(new AdminOrderView
+                await using var command = new NpgsqlCommand(sql.ToString(), connection);
+                await using var reader = await command.ExecuteReaderAsync();
+
+                while (reader.Read())
                 {
-                    OrderId = reader.GetInt32(0),
-                    Username = reader.GetString(1),
-                    Email = reader.GetString(2),
-                    Total = reader.GetDecimal(3),
-                    Status = reader.GetString(4),
-                    CreatedAt = reader.GetDateTime(5)
-                });
-            }
+                    results.Add(new AdminOrderView
+                    {
+                        OrderId = reader.GetInt32(0),
+                        Username = reader.GetString(1),
+                        Email = reader.GetString(2),
+                        Total = reader.GetDecimal(3),
+                        Status = reader.GetString(4),
+                        CreatedAt = reader.GetDateTime(5)
+                    });
+                }
 
-            return results;
+                return results;
             }
             catch (Exception ex)
             {

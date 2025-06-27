@@ -3,6 +3,7 @@ import { useAuth } from "../context/AuthContext";
 import orderService from "../api/OrderService";
 import orderItemService from "../api/OrderItemService";
 import { useNavigate, Link } from "react-router-dom";
+import { toast } from "react-toastify";
 
 export default function Basket() {
   const { token } = useAuth();
@@ -77,11 +78,11 @@ export default function Basket() {
   const confirmOrder = async () => {
     try {
       await orderService.confirmOrder(orderId);
-      alert("🎉 Congratulations on your order!");
+      toast.success("Order confirmed successfully!");
       navigate("/order/history");
     } catch (err) {
       console.error("Failed to confirm order", err);
-      alert("Something went wrong. Please try again.");
+      toast.error("Could not confirm order. Please try again.");
     }
   };
 
@@ -105,7 +106,7 @@ export default function Basket() {
           <ul className="space-y-3">
             {items.map((item) => (
               <li
-                key={`${orderId}-${item.productId}`} // ✅ Stable key
+                key={`${orderId}-${item.productId}`}
                 className="border p-4 rounded shadow flex justify-between items-center"
               >
                 <div>

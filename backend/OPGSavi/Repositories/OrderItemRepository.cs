@@ -38,11 +38,10 @@ namespace OPGSavi.Repositories
                     Id = reader.GetInt32(0),
                     OrderId = reader.GetInt32(1),
                     ProductId = reader.GetInt32(2),
-                    ProductName = reader.GetString(3), // ← NEW
+                    ProductName = reader.GetString(3),
                     Quantity = reader.GetInt32(4),
                     Price = reader.GetDecimal(5)
                 });
-
             }
 
             return items;

@@ -36,7 +36,7 @@ namespace OPGSavi.Controllers
             return Ok(orders);
         }
 
-        /// Confirm the user's current order (submit it).
+        /// Confirm the user's current order.
         [HttpPut("{id}/confirm")]
         public async Task<IActionResult> ConfirmOrder(int id)
         {
@@ -44,7 +44,7 @@ namespace OPGSavi.Controllers
 
             var order = await _orderService.GetOrderByIdAsync(id);
             if (order == null || order.UserId != userId)
-                return Forbid(); // ⛔ User cannot confirm someone else’s order
+                return Forbid(); // User cannot confirm someone else’s order
 
             var updated = await _orderService.ConfirmOrderAsync(id);
             return updated > 0 ? Ok() : NotFound();
@@ -65,7 +65,6 @@ namespace OPGSavi.Controllers
             }
             catch (Exception ex)
             {
-                // Log the exception
                 Console.WriteLine($"Error retrieving orders: {ex.Message}");
                 return StatusCode(500, "An error occurred while retrieving orders.");
             }

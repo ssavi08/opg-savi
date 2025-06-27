@@ -3,20 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderitemrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\repositories\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\models\\adminorderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\models\\adminorderview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|c:\\users\\savi_3\\documents\\projects\\opg-savi\\backend\\opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE6F76C6-2BB8-4474-8D8F-7D7AE5C8AE8D}|OPGSavi\\OPGSavi.csproj|solutionrelative:opgsavi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "AdminOrderView.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Models\\AdminOrderView.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Models\\AdminOrderView.cs",
               "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Models\\AdminOrderView.cs",
               "RelativeToolTip": "OPGSavi\\Models\\AdminOrderView.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T16:53:56.889Z",
+              "WhenOpened": "2025-06-26T19:39:19.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "OrderItemRepository.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "RelativeToolTip": "OPGSavi\\Repositories\\OrderItemRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:56:21.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "OrderController.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Controllers\\OrderController.cs",
               "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Controllers\\OrderController.cs",
               "RelativeToolTip": "OPGSavi\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwDUAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAYwDoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T16:43:21.748Z",
+              "WhenOpened": "2025-06-26T18:21:44.721Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\OrderRepository.cs",
               "RelativeDocumentMoniker": "OPGSavi\\Repositories\\OrderRepository.cs",
               "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\OrderRepository.cs",
               "RelativeToolTip": "OPGSavi\\Repositories\\OrderRepository.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAzwL0AAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAIA7wKMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-25T15:56:03.472Z",
+              "WhenOpened": "2025-06-26T18:19:48.903Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\appsettings.json",
-              "RelativeDocumentMoniker": "OPGSavi\\appsettings.json",
-              "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\appsettings.json",
-              "RelativeToolTip": "OPGSavi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-06-25T15:53:05.342Z",
+              "DocumentIndex": 4,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Services\\OrderService.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Services\\OrderService.cs",
+              "RelativeToolTip": "OPGSavi\\Services\\OrderService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAawCwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T18:19:02.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "OPGSavi\\Repositories\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\savi_3\\Documents\\projects\\opg-savi\\backend\\OPGSavi\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "OPGSavi\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAiwBUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-26T13:50:11.025Z",
               "EditorCaption": ""
             }
           ]

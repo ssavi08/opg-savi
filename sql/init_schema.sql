@@ -47,3 +47,8 @@ CREATE TABLE order_items (
     FOREIGN KEY (order_id) REFERENCES orders(id) ON DELETE CASCADE,
     FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE
 );
+
+
+--must have changes:
+ALTER TABLE orders ADD COLUMN status TEXT;
+ALTER TABLE products ADD COLUMN image_file_name TEXT;

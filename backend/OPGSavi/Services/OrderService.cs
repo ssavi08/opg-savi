@@ -23,7 +23,7 @@ namespace OPGSavi.Services
                 UserId = userId,
                 Total = 0,
                 CreatedAt = DateTime.UtcNow,
-                Status = "open" // ✅ Ensure status is set to "open"
+                Status = "open"
             };
 
             newOrder.Id = await _orderRepository.CreateOrderAsync(newOrder);
@@ -44,10 +44,10 @@ namespace OPGSavi.Services
         {
             return _orderRepository.GetAllOrdersWithUsersAsync();
         }
+
         public Task<Order?> GetOrderByIdAsync(int orderId)
         {
             return _orderRepository.GetOrderByIdAsync(orderId);
         }
-
     }
 }

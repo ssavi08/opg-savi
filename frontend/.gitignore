@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore product and background images
+/public/images/products/
+/public/images/backgrounds/

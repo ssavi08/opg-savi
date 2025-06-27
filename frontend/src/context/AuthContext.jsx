@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect } from "react";
+import { createContext, useContext, useState } from "react";
 
 const AuthContext = createContext();
 
@@ -7,6 +7,11 @@ export const AuthProvider = ({ children }) => {
   const [role, setRole] = useState(() => localStorage.getItem("role"));
   const [username, setUsername] = useState(() => localStorage.getItem("username"));
 
+  // Modal control
+  const [loginModalVisible, setLoginModalVisible] = useState(false);
+  const showLoginModal = () => setLoginModalVisible(true);
+  const hideLoginModal = () => setLoginModalVisible(false);
+
   const login = ({ token, role, username }) => {
     localStorage.setItem("token", token);
     localStorage.setItem("role", role);
@@ -14,6 +19,7 @@ export const AuthProvider = ({ children }) => {
     setToken(token);
     setRole(role);
     setUsername(username);
+    hideLoginModal(); // close modal on successful login
   };
 
   const logout = () => {
@@ -24,7 +30,18 @@ export const AuthProvider = ({ children }) => {
   };
 
   return (
-    <AuthContext.Provider value={{ token, role, username, login, logout }}>
+    <AuthContext.Provider
+      value={{
+        token,
+        role,
+        username,
+        login,
+        logout,
+        loginModalVisible,
+        showLoginModal,
+        hideLoginModal
+      }}
+    >
       {children}
     </AuthContext.Provider>
   );
